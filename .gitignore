@@ -1,0 +1,7 @@
+isoquant_test/
+groups_name.csv
+oarfish_nanopore.R
+oarfish.sh
+dataset.yaml
+groups.tsv
+.Rhistory
