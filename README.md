@@ -1,10 +1,8 @@
 # long-read-sequencing-analysis
-# WORK IN PROGRESS 
-
 # RNA-seq analysis pipeline (Nanopore)
 
+## WORK IN PROGRESS ##
 
-# WORK IN PROGRESS
 This repository contains a series of Bash scripts to process Nanopore RNA-seq data in mouse (GRCm39 / Gencode vM37),but could be easily change to other reference genome, from raw FASTQ files to:
 
 - Genome alignments (sorted and indexed BAM files)
@@ -84,7 +82,8 @@ Output directories created by the pipeline:
 ../results/FeatureCounts/
 ../samples/Isoquant
 ```
-3. Making the scripts executable
+
+## 3. Making the scripts executable
 
 From the directory where the scripts are stored:
 ```
