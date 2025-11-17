@@ -34,7 +34,7 @@ This repository contains a series of Bash scripts to process Nanopore RNA-seq da
 - [samtools](https://github.com/samtools/samtools)
 - [minimap2](https://github.com/nanoporetech/ont-minimap2)
 - [NanoPlot](https://github.com/wdecoster/NanoPlot)
-- [chopper](https://github.com/wdecoster/chopper)  https://github.com/nanoporetech/pychopper
+- [chopper] https://github.com/nanoporetech/pychopper
 - [Subread / featureCounts](https://subread.sourceforge.net/)
 - [IsoQuant](https://github.com/ablab/IsoQuant)
     ```conda create -c conda-forge -c bioconda -n isoquant python=3.8 isoquant```
@@ -112,12 +112,16 @@ conda activate rna_env
 ### 4.3.Transcript expression analysis (Conda env: isoquant) 
 
 Create groups.tsv
+
 Example:
+```
 barcode01,grupo1
 barcode02,grupo1
 barcode03,grupo1
 barcode04,grupo2
 barcode05,grupo2
+```
+
 ```
 conda activate isoquant
 
